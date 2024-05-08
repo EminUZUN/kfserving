@@ -44,7 +44,7 @@ setup(
         "grpcio>=1.22.0",
         "xgboost==1.0.2",
         "shap==0.36.0",
-        "numpy<1.19.0"
+        "numpy<1.27.0"
     ],
     tests_require=tests_require,
     extras_require={'test': tests_require}
