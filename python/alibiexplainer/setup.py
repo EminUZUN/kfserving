@@ -36,7 +36,7 @@ setup(
         "pandas>=0.24.2",
         "nest_asyncio>=1.4.0",
         "alibi==0.5.5",
-        "scikit-learn == 0.20.3",
+        "scikit-learn == 0.23.1",
         "argparse>=1.4.0",
         "requests>=2.22.0",
         "joblib>=0.13.2",
@@ -44,7 +44,7 @@ setup(
         "grpcio>=1.22.0",
         "xgboost==1.0.2",
         "shap==0.36.0",
-        "numpy<1.19.0"
+        "numpy<1.27.0"
     ],
     tests_require=tests_require,
     extras_require={'test': tests_require}
