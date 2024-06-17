@@ -35,7 +35,7 @@ setup(
     install_requires=[
         "kfserving>=0.5.0",
         "xgboost == 0.82",
-        "scikit-learn == 0.20.3",
+        "scikit-learn == 1.5.0",
     ],
     tests_require=tests_require,
     extras_require={'test': tests_require}
